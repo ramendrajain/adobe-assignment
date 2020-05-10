@@ -1,0 +1,54 @@
+@import "./variable.scss";
+.header-bar {
+  background-color: #1a73e8;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  .header-left {
+    span {
+      font-size: 25px;
+      color: yellow;
+      font-weight: 700;
+    }
+  }
+
+  .header-right {
+    display: flex;
+    .search-container {
+      position: relative;
+      margin-right: 2 * $space-md;
+      input {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+        outline: none;
+        color: white;
+        min-width: 200px;
+        &::placeholder {
+          color: white;
+        }
+      }
+      span {
+        position: absolute;
+        right: -4px;
+        top: 4px;
+        color: white;
+        font-size: 15px;
+      }
+    }
+    span {
+      color: white;
+    }
+    .cart-count {
+      text-align: center;
+      width: 20px;
+      height: 20px;
+      background: red;
+      border-radius: 50%;
+      position: relative;
+      top: -7px;
+      right: 3px;
+      color: white;
+    }
+  }
+}

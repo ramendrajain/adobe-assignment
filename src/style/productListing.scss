@@ -1,0 +1,228 @@
+@import "./variable.scss";
+
+.product-container {
+  margin: 0 10px;
+}
+.filter-container {
+  display: none;
+}
+.price-range-container {
+  .filters {
+    color: $dark-gray;
+    font-size: $font-size-lg;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 30px !important;
+    .price-range {
+      text-align: center;
+      font-size: 12px;
+      font-weight: 100;
+    }
+    .filter-scale {
+      text-align: left;
+      padding: 20px 0px;
+    }
+    button {
+      margin: 10px 0px;
+      border-radius: 20px;
+      border: none;
+      padding: 5px 25px;
+      outline: none;
+      font-weight: 500;
+      font-size: $font-size-sm;
+    }
+  }
+}
+
+.sort-options {
+  margin: 40px 0px;
+  .filtersort {
+    color: $dark-gray;
+    font-size: $font-size-lg;
+    font-weight: bold;
+  }
+  .active {
+    color: #1a73e8;
+    text-decoration: underline;
+    text-decoration-color: #1a73e8;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    li {
+      margin: 0px 3% 0px 0px;
+      font-size: $font-size-md;
+      font-weight: 700;
+      color: gray;
+      cursor: pointer;
+    }
+  }
+}
+.product-list {
+  margin-bottom: 4 * $space-md;
+  .itemname {
+    font-weight: 400;
+    margin: $space-md 0px $space-sm 0px;
+    font-size: $font-size-sm;
+  }
+  .price-list {
+    display: flex;
+    justify-content: space-between;
+    margin: $space-sm 0px;
+    font-size: $font-size-sm;
+    .itemprice {
+      font-weight: 700;
+      color: #333;
+      div {
+        display: inline-block;
+        margin-right: $space-sm;
+        color: $dark-gray;
+      }
+      s {
+        color: gray;
+        font-weight: normal;
+      }
+    }
+    .discnt {
+      color: green;
+      font-weight: 700;
+    }
+  }
+  img {
+    width: 100%;
+    height: 250px;
+  }
+  .add-cart {
+    text-align: center;
+
+    button {
+      border-radius: 20px;
+      outline: none !important;
+      color: $dark-gray;
+      font-weight: 600;
+      font-size: $font-size-sm;
+    }
+  }
+}
+.itmdetails {
+  margin: $space-md 0;
+}
+.product-det {
+  border-left: 1px solid lightgray;
+  margin-bottom: 2 * $space-lg;
+}
+.mob-price-sort {
+  font-weight: 600;
+  color: $gray;
+  h1 {
+    margin: $space-md 0px $space-lg;
+    font-weight: 600;
+    font-size: $font-size-lg;
+    color: $black;
+  }
+  input {
+    margin: 4px $space-sm;
+    font-size: 15px;
+  }
+  .filters {
+    .filter-scale {
+      margin: $space-lg 0px 5 * $space-sm;
+      color: $dark-gray;
+      font-weight: 700;
+    }
+    .price-range {
+      text-align: center;
+      font-size: $font-size-xs;
+    }
+    .range-container {
+      padding: 10px 20px;
+    }
+    button {
+      float: right;
+      width: 50%;
+      background: none;
+      color: $base-color;
+      border-top: 1px solid $gray-stroke1;
+      border-radius: 0px;
+      border-left: none;
+      border-bottom: none;
+      font-weight: 600;
+      border-right: none;
+      font-size: $font-size-sm;
+    }
+  }
+  .btn-cancel {
+    width: 50%;
+    border-top: 1px solid $gray-stroke1;
+    color: $base-color;
+    background: none;
+    border-radius: 0px;
+    border-right: 1px solid $gray-stroke1;
+    font-weight: 600;
+  }
+}
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: $space-md;
+  border-top: 1px solid $gray-stroke1;
+  color: $base-color;
+  font-weight: 700;
+  .action {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .cancel {
+    border-right: 1px solid $gray-stroke1;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mob-price-sort {
+    .sort-option {
+      padding: 15px;
+    }
+    input {
+      margin-right: 5px !important;
+    }
+  }
+  .product-container {
+    margin: 0;
+  }
+  .filter-container {
+    display: flex;
+    font-size: $font-size-lg;
+    font-weight: 600;
+    .filter {
+      flex: 1;
+      text-align: center;
+      border: 1px solid #e6e6e6;
+      padding: 10px 0;
+      span {
+        font-size: $font-size-lg;
+      }
+      .triangle-down {
+        transform: rotate(180deg);
+        position: relative;
+        top: 11px;
+        right: $font-size-lg;
+      }
+    }
+  }
+  .price-range-container {
+    display: none;
+  }
+  .sort-container {
+    display: none;
+  }
+  .product-list {
+    > div {
+      border: 1px solid #e3e3e3;
+    }
+    .col-xs-6 {
+      border: 1px solid #e6e6e6;
+    }
+  }
+}
