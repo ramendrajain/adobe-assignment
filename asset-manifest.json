@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/adobe-assignment/static/css/main.4b9eb763.chunk.css",
+    "main.js": "/adobe-assignment/static/js/main.051af8ed.chunk.js",
+    "main.js.map": "/adobe-assignment/static/js/main.051af8ed.chunk.js.map",
+    "runtime-main.js": "/adobe-assignment/static/js/runtime-main.0f828182.js",
+    "runtime-main.js.map": "/adobe-assignment/static/js/runtime-main.0f828182.js.map",
+    "static/css/2.5384dcf1.chunk.css": "/adobe-assignment/static/css/2.5384dcf1.chunk.css",
+    "static/js/2.0561fdf7.chunk.js": "/adobe-assignment/static/js/2.0561fdf7.chunk.js",
+    "static/js/2.0561fdf7.chunk.js.map": "/adobe-assignment/static/js/2.0561fdf7.chunk.js.map",
+    "index.html": "/adobe-assignment/index.html",
+    "precache-manifest.4c2adc31779f4e6dbbb7b628f52952ad.js": "/adobe-assignment/precache-manifest.4c2adc31779f4e6dbbb7b628f52952ad.js",
+    "service-worker.js": "/adobe-assignment/service-worker.js",
+    "static/css/2.5384dcf1.chunk.css.map": "/adobe-assignment/static/css/2.5384dcf1.chunk.css.map",
+    "static/css/main.4b9eb763.chunk.css.map": "/adobe-assignment/static/css/main.4b9eb763.chunk.css.map",
+    "static/js/2.0561fdf7.chunk.js.LICENSE": "/adobe-assignment/static/js/2.0561fdf7.chunk.js.LICENSE",
+    "static/media/index.css": "/adobe-assignment/static/media/Verdana.a2ad3c71.ttf",
+    "static/media/bootstrap.css": "/adobe-assignment/static/media/glyphicons-halflings-regular.fa277232.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f828182.js",
+    "static/css/2.5384dcf1.chunk.css",
+    "static/js/2.0561fdf7.chunk.js",
+    "static/css/main.4b9eb763.chunk.css",
+    "static/js/main.051af8ed.chunk.js"
+  ]
+}
