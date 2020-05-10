@@ -27,7 +27,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://ramendrajain.github.io/shopping-cart",
+  "homepage": "https://ramendrajain.github.io/adobe-assignment",
   "eslintConfig": {
     "extends": "react-app"
   },
